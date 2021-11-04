@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Bootstrap core CSS -->
+  <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this page -->
+  <link rel="stylesheet" href="../css/register.css">
+
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-N3282030K5"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-N3282030K5');
+  </script>
+
+  <title>Truck Center | Ingresar</title>
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="row no-gutter">
+      <div class="d-none d-md-flex col-md-4 col-lg-6 bg-image">
+        <div class="m-4">
+          <h1><a class="text-white" style="text-decoration: none" href="../index.html">Truck Smart</a></h1>
+        </div>
+      </div>
+      <div class="col-md-8 col-lg-6">
+        <div class="login d-flex align-items-center py-5">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-9 col-lg-8 mx-auto">
+                <div class="d-md-none mb-4">
+                  <h1><a style="text-decoration: none" href="../index.html">Truck Cenre</a></h1>
+                </div>
+                <h3 class="login-heading mb-4">Truck Center | Ingresar</h3>
+                <form>
+
+                  <div class="form-label-group">
+                    <input type="email" id="inputEmail" name="email" class="form-control" placeholder="Email address" required>
+                    <label for="inputEmail">Correo electronico</label>
+                  </div>
+
+                  <div class="form-label-group">
+                    <input type="password" id="inputPassword" name=password" class="form-control" placeholder="Password" required>
+                    <label for="inputPassword">Contraseña</label>
+                  </div>
+
+                  <button class="btn btn-lg btn-primary btn-block btn-login text-uppercase font-weight-bold mb-2"
+                    type="button" onclick="showData(this.form)">Ingresar</button>
+                </form>
+                <div class="text-center">
+                  <a class="small" href="../index.html">Regresar a la pagina principal</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+
+  <script>
+    function showData(form){
+      console.log(form.email.value)
+    }
+  </script>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="../vendor/jquery/jquery.min.js"></script>
+  <script src="../vendor/popper/popper.min.js"></script>
+  <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
