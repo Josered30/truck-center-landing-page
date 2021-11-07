@@ -63,6 +63,14 @@ a {
   font-size: 14px;
 }
 
+.status-succeed {
+  color: #007bff;
+}
+
+.status-fail {
+  color: #d23d40;
+}
+
 .custom-form-input:focus,
 .custom-form-input:valid {
   padding: 12px 0px 0px 20px;
