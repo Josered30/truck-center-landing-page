@@ -117,23 +117,29 @@
                 </a>
               </div>
 
-              <div class="col-xl-4 px-5">
+              <div class="col-xl-4">
                 <div class="card email-card">
                   <div class="card-body">
-                    <h5 class="card-title custom-card-title">
+                    <h5 class="card-title custom-card-title mb-3">
                       Ingrese su correo electronico para recibir más novedades
                     </h5>
-                    <form method="post" action="https://formspree.io/f/xdoyrbpk">
+
+                    <form  method="post" action="https://formspree.io/f/xdoyrbpk" id="emailForm">
                       <div class="custom-form-control">
                         <input type="email" class="custom-form-input" id="emailInput" name="email" required>
                         <label class="custom-form-label" for="emailInpuut"> 
                           <span class="custom-label-content">
                             Correo electronico
-                          </span>
+                          </span>    
                         </label>
-                         
                       </div>
-                      <button type="submit" class="btn btn-primary">Aceptar</button>
+
+                      <div class="custom-form-status">
+                        <span id="emailFormStatus"></span>
+                      </div>
+
+      
+                      <button type="submit" class="btn btn-primary mt-3">Aceptar</button>
                     </form>
                   </div>
                 </div>
@@ -628,6 +634,8 @@
       </div>
       <!-- Copyright -->
     </footer>
+    
+    <script slot="./js/index.js"></script>
 
     <script src="./js/wow.min.js"></script>
     <script>
