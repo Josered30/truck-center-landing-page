@@ -100,11 +100,11 @@
 
     <!-- Masthead -->
     <header class="masthead">
-        <div class="image text-white text-center" style="background: url(./img/bg-masthead.jpg) no-repeat center center;
+        <div class="image  text-center" style="background: url(./img/bg-masthead.jpg) no-repeat center center;
         background-size: cover;">
           <div class="overlay">
-            <div class="row">
-              <div class="col-xl-9 mx-auto">
+            <div class="row gy-5">
+              <div class="col-xl-8 mx-auto text-white">
                 <h1 class="wow bounceInRight" class="mb-5">
                   ¡Bienvenido a Truck Center!
                 </h1>
@@ -112,9 +112,31 @@
                   Empieza a generar ingresos como transportista o contrata servicios
                   de transporte de una manera rápida y sencilla.
                 </h4>
-                <a class="btn btn-primary m-5" href="register.html">
+                <a class="btn btn-primary my-3" href="register.html">
                   <h5>Empieza ya</h5>
                 </a>
+              </div>
+
+              <div class="col-xl-4 px-5">
+                <div class="card email-card">
+                  <div class="card-body">
+                    <h5 class="card-title custom-card-title">
+                      Ingrese su correo electronico para recibir más novedades
+                    </h5>
+                    <form method="post" action="https://formspree.io/f/xdoyrbpk">
+                      <div class="custom-form-control">
+                        <input type="email" class="custom-form-input" id="emailInput" required>
+                        <label class="custom-form-label" for="emailInpuut"> 
+                          <span class="custom-label-content">
+                            Correo electronico
+                          </span>
+                        </label>
+                         
+                      </div>
+                      <button type="submit" class="btn btn-primary">Aceptar</button>
+                    </form>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -130,6 +152,8 @@
           </div>
 
           <div class="col-lg-6 order-lg-1 showcase-text">
+
+            
             <h2 class="wow fadeIn">
               Solicita servicio de transporte de forma rapida
             </h2>
